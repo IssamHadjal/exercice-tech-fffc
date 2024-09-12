@@ -1,0 +1,141 @@
+# --- General Python ignores ---
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytest_cache/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and environment variables
+*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Node.js / React ignores ---
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Production build
+build/
+
+# Static files
+public/static
+
+# Testing
+coverage/
+jest/
+junit/
+jest-html-reports/
+
+# Parcel-bundler cache
+.cache/
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Rollup cache
+.rollup.cache/
+
+# Miscellaneous
+.npm
+.DS_Store
+.yarn-integrity
+.yarn/
+.pnp.js
+
+# --- Docker ignores ---
+
+# Docker files
+docker-compose.yml
+docker-compose.override.yml
+Dockerfile
+
+# Docker logs, containers, images, volumes
+**/.docker/
+**/.dockerignore
+
+# --- IDE / Editor related ignores ---
+
+# IntelliJ IDEA
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# --- OS-specific ignores ---
+# macOS
+.DS_Store
